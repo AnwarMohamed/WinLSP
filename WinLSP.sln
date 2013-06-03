@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Installer", "Installer\Installer.vcxproj", "{89A3651C-CBA3-4DBE-AB68-A6FE723C97DA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NonIFS-LSP", "NonIFS-LSP\NonIFS-LSP.vcxproj", "{AD07F882-D6E1-4844-9D0C-2D187E74303D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89A3651C-CBA3-4DBE-AB68-A6FE723C97DA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{89A3651C-CBA3-4DBE-AB68-A6FE723C97DA}.Debug|Win32.Build.0 = Debug|Win32
+		{89A3651C-CBA3-4DBE-AB68-A6FE723C97DA}.Release|Win32.ActiveCfg = Release|Win32
+		{89A3651C-CBA3-4DBE-AB68-A6FE723C97DA}.Release|Win32.Build.0 = Release|Win32
+		{AD07F882-D6E1-4844-9D0C-2D187E74303D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AD07F882-D6E1-4844-9D0C-2D187E74303D}.Debug|Win32.Build.0 = Debug|Win32
+		{AD07F882-D6E1-4844-9D0C-2D187E74303D}.Release|Win32.ActiveCfg = Release|Win32
+		{AD07F882-D6E1-4844-9D0C-2D187E74303D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
