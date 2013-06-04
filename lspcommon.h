@@ -42,7 +42,7 @@ extern CRITICAL_SECTION gDebugCritSec;
 
 // Function definition for the GetLspGuid export which returns an LSPs dummy provider GUID
 typedef
-void (*LPFN_GETLSPGUID) (GUID *lpGuid);
+void (WSPAPI *LPFN_GETLSPGUID) (GUID *lpGuid);
 
 // For 64-bit systems, we need to know which catalog to operate on
 typedef enum

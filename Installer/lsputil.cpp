@@ -214,7 +214,7 @@ IsEqualProtocolEntries(
 //      installed under. By exporting this function the uninstaller is decoupled
 //      from a specific LSP.
 //
-int
+int //WSPAPI
 RetrieveLspGuid(
     __in_z char    *LspPath,
     GUID    *Guid

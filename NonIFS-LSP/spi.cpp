@@ -3318,7 +3318,8 @@ cleanup:
 //          called it can reliably load the lower provider (unless the bad LSP
 //          modified our LSPs entries and goofed up our chains as well).
 //
-int WSPAPI 
+int
+WSPAPI 
 WSPStartup(
     WORD                wVersion,
     LPWSPDATA           lpWSPData,

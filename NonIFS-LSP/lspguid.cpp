@@ -50,8 +50,8 @@ GUID gProviderGuid = { 0x4f76eb9f, 0x2a24, 0x4b4e, { 0xb8, 0xc3, 0xf, 0x55, 0xd8
 //      of the hidden dummy entry of the LSP. Using this export allows the installer
 //      to query each LSP instance of its GUID so that it may install it.
 //
-extern "C" __declspec(dllexport) void 
-//WSPAPI 
+void 
+WSPAPI 
 GetLspGuid(
     LPGUID lpGuid
     )

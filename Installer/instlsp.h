@@ -372,7 +372,7 @@ IsEqualProtocolEntries(
         );
 
 // Given the full path and name of LSP, load it and call the GetLspGuid export
-int
+int //WSPAPI
 RetrieveLspGuid(
         __in_z char    *LspPath,
         GUID    *Guid

@@ -1,0 +1,4 @@
+LIBRARY    NonIFS-LSP
+EXPORTS   
+	WSPStartup
+	GetLspGuid
